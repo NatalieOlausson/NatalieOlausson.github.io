@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natalie Olausson - Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>HOME</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Select Works</a></li>
+                    <li><a href="#reels">Reels & TikToks</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="nav-overlay">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Select Works</a></li>
+                <li><a href="#reels">Reels & TikToks</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="email">
+                        <p>Natalie.olausson1@gmail.com</p>
+                    </div>
+                    <h2 class="hero-title">
+                        PORTFOLIO<br>
+                        PORTFOLIO
+                    </h2>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-image">
+                        <img src="images/hero-main.jpg" alt="Natalie Olausson" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to my creative world. I'm Natalie, a passionate photographer and visual storyteller with a keen eye for capturing life's most beautiful moments. My work spans across various genres, from intimate portraits to striking architectural photography.</p>
+                    <p>With years of experience behind the lens, I believe in the power of imagery to tell compelling stories and evoke emotions. Each project is approached with dedication, creativity, and a commitment to excellence that ensures every shot reflects the unique vision we create together.</p>
+                    <p>Whether you're looking for professional portraits, event coverage, or artistic collaborations, I'm here to bring your vision to life through my lens.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Previous Projects</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="images/gallery-1.jpg">
+                    <img src="images/gallery-1.jpg" alt="Portfolio project 1" />
+                    <div class="gallery-overlay">
+                        <h3>Project Title 1</h3>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-2.jpg">
+                    <img src="images/gallery-2.jpg" alt="Portfolio project 2" />
+                    <div class="gallery-overlay">
+                        <h3>Project Title 2</h3>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-3.jpg">
+                    <img src="images/gallery-3.jpg" alt="Portfolio project 3" />
+                    <div class="gallery-overlay">
+                        <h3>Project Title 3</h3>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-4.jpg">
+                    <img src="images/gallery-4.jpg" alt="Portfolio project 4" />
+                    <div class="gallery-overlay">
+                        <h3>Project Title 4</h3>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-5.jpg">
+                    <img src="images/gallery-5.jpg" alt="Portfolio project 5" />
+                    <div class="gallery-overlay">
+                        <h3>Project Title 5</h3>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-6.jpg">
+                    <img src="images/gallery-6.jpg" alt="Portfolio project 6" />
+                    <div class="gallery-overlay">
+                        <h3>Project Title 6</h3>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reels & TikToks Section -->
+    <section id="reels" class="reels">
+        <div class="container">
+            <h2 class="section-title">SELECT WORKS (REELS & TIKTOKS)</h2>
+            <div class="reels-grid">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <video class="reel-video" loop muted playsinline>
+                                <source src="images/reel-1.mp4" type="video/mp4">
+                                <!-- Fallback image if video doesn't load -->
+                                <img src="images/reel-1-poster.jpg" alt="Reel 1 Preview">
+                            </video>
+                            <div class="reel-overlay">
+                                <div class="reel-header">
+                                    <span class="reel-platform">@natalieolausson</span>
+                                    <div class="reel-actions">
+                                        <span class="reel-heart">♡</span>
+                                        <span class="reel-share">↗</span>
+                                    </div>
+                                </div>
+                                <div class="reel-description">
+                                    <h3>Creative Session</h3>
+                                    <p>Mixing and matching different styles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <video class="reel-video" loop muted playsinline>
+                                <source src="images/reel-2.mp4" type="video/mp4">
+                                <img src="images/reel-2-poster.jpg" alt="Reel 2 Preview">
+                            </video>
+                            <div class="reel-overlay">
+                                <div class="reel-header">
+                                    <span class="reel-platform">@natalieolausson</span>
+                                    <div class="reel-actions">
+                                        <span class="reel-heart">♡</span>
+                                        <span class="reel-share">↗</span>
+                                    </div>
+                                </div>
+                                <div class="reel-description">
+                                    <h3>Nordic Noir</h3>
+                                    <p>A day in the life of a ski enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <video class="reel-video" loop muted playsinline>
+                                <source src="images/reel-3.mp4" type="video/mp4">
+                                <img src="images/reel-3-poster.jpg" alt="Reel 3 Preview">
+                            </video>
+                            <div class="reel-overlay">
+                                <div class="reel-header">
+                                    <span class="reel-platform">@natalieolausson</span>
+                                    <div class="reel-actions">
+                                        <span class="reel-heart">♡</span>
+                                        <span class="reel-share">↗</span>
+                                    </div>
+                                </div>
+                                <div class="reel-description">
+                                    <h3>Urban Architecture</h3>
+                                    <p>Exploring geometric beauty in city landscapes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Image Containers Below Reels -->
+            <div class="reel-images-section">
+                <div class="reel-image-container" data-image="images/reel-1-poster.jpg">
+                    <img src="images/reel-1-poster.jpg" alt="Creative Session Behind the Scenes" />
+                    <div class="reel-image-overlay">
+                        <h3>Behind the Scenes</h3>
+                        <p>Creative process in action</p>
+                    </div>
+                </div>
+                <div class="reel-image-container" data-image="images/reel-2-poster.jpg">
+                    <img src="images/reel-2-poster.jpg" alt="Nordic Noir Photography" />
+                    <div class="reel-image-overlay">
+                        <h3>Nordic Moments</h3>
+                        <p>Capturing the essence of winter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <section id="contact" class="contact-footer">
+        <div class="container">
+            <div class="contact-footer-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Natalie.olausson1@gmail.com</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Natalie Olausson. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img src="" alt="" id="lightbox-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
